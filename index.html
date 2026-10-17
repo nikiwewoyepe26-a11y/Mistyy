@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f46caf">
+<meta name="description" content="A heartfelt pink-and-purple love letter website made especially for MISTY.">
+<title>For MISTY ♡ — You Make My World Beautiful</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+:root{--pink:#ff75b9;--pink2:#ffd1e8;--purple:#8b5cf6;--deep:#54266f;--ink:#46234f;--glass:rgba(255,220,239,.82)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:'Cairo',sans-serif;color:var(--ink);direction:ltr;background:#f8a9d0;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 12% 15%,#f46caf 0,transparent 34%),radial-gradient(circle at 88% 22%,#ce77e8 0,transparent 34%),radial-gradient(circle at 50% 90%,#f879b6 0,transparent 38%),linear-gradient(135deg,#f7a4cd,#f5b4e4 48%,#e7a0f2);background-size:130% 130%;animation:bgMove 16s ease-in-out infinite alternate}
+@keyframes bgMove{to{background-position:100% 0,0 100%,100% 70%,0 0}}
+a{color:inherit}.topbar{position:fixed;top:14px;left:50%;transform:translateX(-50%);width:min(92%,1000px);z-index:20;display:flex;align-items:center;justify-content:space-between;padding:10px 16px;border:1px solid #ffffffb8;background:rgba(255,190,224,.92);backdrop-filter:blur(18px);border-radius:999px;box-shadow:0 8px 30px #9a54b51a}
+.brand{font-family:'Playfair Display',serif;font-size:1.15rem;color:#9d3e9d;font-weight:bold;direction:ltr}.navlinks{display:flex;gap:18px;font-size:.82rem}.navlinks a{text-decoration:none;opacity:.78}.navlinks a:hover{color:#d946a5;opacity:1}
+.hero{min-height:100svh;display:grid;place-items:center;padding:110px 20px 60px;position:relative;text-align:center}
+.hero-inner{width:min(900px,100%);position:relative}.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border:1px solid #f4c7e7;background:rgba(255,205,233,.88);border-radius:999px;color:#a34298;font-size:.86rem;box-shadow:0 8px 28px #c06ab11a}
+h1{font-size:clamp(3.5rem,13vw,8.4rem);line-height:1.05;margin:18px 0 16px;font-family:'Playfair Display',cursive;direction:ltr;letter-spacing:2px;font-style:italic;font-weight:700;background:linear-gradient(120deg,#fff1fa 0%,#ffedf8 18%,#bd3b94 48%,#7434a4 76%,#fff0fa 100%);color:transparent;background-clip:text;-webkit-background-clip:text;text-shadow:0 5px 0 #f3a1d7,0 12px 32px #8b2f8b55;filter:drop-shadow(0 3px 10px #ffdcf1);position:relative}
+.subtitle{font-size:clamp(1rem,2.7vw,1.3rem);line-height:2;max-width:650px;margin:0 auto;color:#714b79}.subtitle strong{color:#c0449c}
+.hero-heart{font-size:2.2rem;display:inline-block;animation:heartbeat 1.7s infinite;filter:drop-shadow(0 5px 12px #ef6ca866)}@keyframes heartbeat{0%,100%{transform:scale(1)}14%{transform:scale(1.18)}28%{transform:scale(1)}42%{transform:scale(1.12)}}
+.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:30px}.btn{border:0;cursor:pointer;font:700 .96rem 'Cairo',sans-serif;padding:13px 23px;border-radius:999px;transition:transform .25s,box-shadow .25s;display:inline-flex;align-items:center;justify-content:center;gap:9px}.btn:hover{transform:translateY(-3px)}.primary{color:white;background:linear-gradient(120deg,#f05ba8,#a45be8);box-shadow:0 12px 26px #d65ca844}.secondary{background:rgba(255,196,227,.9);border:1px solid #e9a9d5;color:#7f2b8b}
+.scrollhint{position:absolute;bottom:24px;left:50%;transform:translateX(-50%);font-size:.75rem;color:#a77aa7;animation:bob 2s infinite}@keyframes bob{50%{transform:translate(-50%,7px)}}
+.sparkle{position:absolute;pointer-events:none;color:#d66cb5;animation:twinkle 3s infinite ease-in-out}.s1{top:22%;left:15%;font-size:24px}.s2{top:32%;right:12%;font-size:30px;animation-delay:1s}.s3{bottom:20%;left:22%;font-size:18px;animation-delay:1.6s}@keyframes twinkle{50%{opacity:.3;transform:scale(.7) rotate(25deg)}}
+section{padding:82px 20px;position:relative}.section-head{text-align:center;max-width:700px;margin:0 auto 38px}.kicker{font-size:.8rem;letter-spacing:2px;color:#bd55a9;font-weight:800}.section-head h2{font-size:clamp(1.8rem,5vw,3rem);margin:8px 0;color:#65366f}.section-head p{color:#866b8d;line-height:1.9;margin:0}
+.wrap{width:min(1050px,100%);margin:auto}.glass{background:var(--glass);border:1px solid #ffd3ec;box-shadow:0 18px 55px #9b328b26;backdrop-filter:blur(15px);border-radius:28px}
+.letter{padding:clamp(24px,5vw,52px);position:relative;overflow:hidden}.letter:after{content:"♡";position:absolute;left:-4px;bottom:-68px;font-size:200px;color:#f5cce8;opacity:.35;transform:rotate(-18deg);pointer-events:none}.letter .salute{font-size:1.25rem;color:#c64b9d;font-weight:800}.letter p{font-size:1.02rem;line-height:2.15;color:#694c70;max-width:800px;position:relative;z-index:1}.signature{font-family:'Playfair Display',serif;font-style:italic;font-size:1.5rem;color:#b74b9c;text-align:right;direction:ltr;margin-top:24px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.reason{padding:25px 22px;min-height:190px;transition:transform .3s,border-color .3s}.reason:hover{transform:translateY(-7px);border-color:#efb6df}.reason .emoji{font-size:1.8rem}.reason h3{margin:12px 0 7px;font-size:1.06rem;color:#873d91}.reason p{margin:0;color:#80658a;line-height:1.85;font-size:.91rem}
+.quote-zone{background:linear-gradient(135deg,rgba(246,111,177,.88),rgba(203,127,235,.86));border-block:1px solid #f9c7e8;padding:75px 20px}.quote-box{max-width:800px;margin:auto;text-align:center;padding:35px 25px}.quote-mark{font-family:Georgia,serif;font-size:4rem;line-height:.7;color:#d96db3}.quote-text{font-size:clamp(1.2rem,3vw,1.8rem);line-height:2;color:#4c1f60;min-height:110px;display:grid;place-items:center;transition:opacity .2s}.quote-count{font-size:.78rem;color:#a276a8;margin:8px 0 20px}
+.promise-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.promise{padding:18px 20px;display:flex;align-items:flex-start;gap:13px;line-height:1.9;color:#73577d}.promise span{font-size:1.35rem}
+.final-card{text-align:center;padding:clamp(28px,6vw,60px);overflow:hidden;position:relative}.final-card h2{font-size:clamp(2rem,6vw,3.5rem);color:#8e419b;margin:0 0 12px}.final-card p{max-width:680px;margin:0 auto 25px;line-height:2;color:#785783}.final-heart{font-size:3rem;animation:heartbeat 1.7s infinite;display:block;margin-bottom:18px}
+footer{text-align:center;padding:30px 15px 45px;color:#a17aa5;font-size:.82rem}footer .made{color:#c84d9c}
+#petals{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:30}.petal{position:absolute;top:-30px;animation:fall linear forwards;opacity:.7;font-size:17px;filter:drop-shadow(0 3px 5px #e98ec955)}@keyframes fall{to{transform:translate3d(var(--drift),110vh,0) rotate(500deg);opacity:.1}}
+.toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,20px);background:#663776;color:white;padding:12px 20px;border-radius:999px;box-shadow:0 10px 30px #4b205344;opacity:0;pointer-events:none;transition:.3s;z-index:50;font-size:.88rem;white-space:nowrap}.toast.show{opacity:1;transform:translate(-50%,0)}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .75s,transform .75s}.reveal.visible{opacity:1;transform:translateY(0)}
+@media(max-width:720px){.navlinks{gap:10px;font-size:.73rem}.grid{grid-template-columns:1fr 1fr}.reason{min-height:170px}.hero{padding-top:120px}.sparkle.s1{left:6%}.sparkle.s2{right:5%}.promise-grid{grid-template-columns:1fr}}
+@media(max-width:450px){.navlinks a:nth-child(2){display:none}.grid{grid-template-columns:1fr}.reason{min-height:unset}.topbar{top:8px}.btn{width:100%}.actions{padding:0 12px}.subtitle{font-size:.98rem}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="petals" aria-hidden="true"></div>
+<header class="topbar">
+  <a class="brand" href="#home" style="text-decoration:none">for MISTY ♡</a>
+  <nav class="navlinks" aria-label="Main navigation"><a href="#letter">Your Letter</a><a href="#reasons">Why You Shine</a><a href="#promises">My Wishes</a></nav>
+</header>
+<main>
+<section class="hero" id="home">
+  <span class="sparkle s1">✦</span><span class="sparkle s2">✧</span><span class="sparkle s3">♡</span>
+  <div class="hero-inner">
+    <div class="eyebrow">✿ A LITTLE NOTE FOR A BEAUTIFUL SOUL ✿</div>
+    <div class="hero-heart" aria-hidden="true">♡</div>
+    <h1>MISTY</h1>
+    <p class="subtitle">To the girl who makes ordinary days softer, laughter brighter, and the world more beautiful… <strong>to my friend who means everything to me.</strong></p>
+    <div class="actions"><a class="btn primary" href="#letter">Open Your Letter ♡</a><button class="btn secondary" id="surpriseBtn">A Little Surprise ✨</button></div>
+  </div>
+  <div class="scrollhint">Keep scrolling for words straight from the heart ↓</div>
+</section>
+<section id="letter">
+ <div class="wrap glass letter reveal">
+   <div class="kicker">A LETTER FROM MY HEART</div>
+   <div class="salute">To MISTY, the sweetest unexpected gift in my life… 💌</div>
+   <p>I don’t know if words can ever explain how much you mean to me, but I want to try. Since you became part of my life, my days have felt softer and the little things have meant so much more. Your presence is never ordinary to me. It is a gift I treasure, a comfort I return to, and a laugh I hope will always find its way into my days.</p>
+   <p>I want you to know that you never have to be strong every single day or hide your sadness behind a smile. You can come to me tired, quiet, confused, or hurting. You never have to explain your feelings to deserve care. I will always try to be a safe place for you—a place where you can speak freely, be yourself, and be reminded of your worth whenever you forget it.</p>
+   <p>MISTY, I wish you could see yourself through my eyes, even for one moment. You would see how beautiful your soul is, how gently your heart deserves to be treated, and how your presence leaves a mark no one else could. I wish you dreams that come true, lighter days, and people who give you the same kindness you so freely share. Thank you for being exactly who you are, with all the little details that make you irreplaceable.</p>
+   <p>And if you ever forget how much you matter, come back to this page. Let it remind you that someone sincerely wishes you well, celebrates your happiness, and hopes life will be as gentle with you as you deserve. I am grateful to have you in my life, and I hope our friendship keeps growing through honesty, laughter, and beautiful memories. ♡</p>
+   <div class="signature">Always cheering for you, MISTY ♡</div>
+ </div>
+</section>
+<section id="reasons">
+ <div class="wrap">
+  <div class="section-head reveal"><div class="kicker">LITTLE THINGS, BIG LOVE</div><h2>Things I Adore About You 🌷</h2><p>They may seem small, but to me, they make all the difference.</p></div>
+  <div class="grid">
+   <article class="glass reason reveal"><div class="emoji">🌸</div><h3>Your Beautiful Heart</h3><p>You have a kindness that makes even the simplest words feel warm and comforting.</p></article>
+   <article class="glass reason reveal"><div class="emoji">☀️</div><h3>Your Presence</h3><p>Sometimes, simply having you around makes a difficult day feel lighter.</p></article>
+   <article class="glass reason reveal"><div class="emoji">🦋</div><h3>The Way You Are</h3><p>You never need to be like anyone else. Your uniqueness is part of your magic.</p></article>
+   <article class="glass reason reveal"><div class="emoji">🎀</div><h3>Your Laughter</h3><p>I hope life keeps giving you reasons to laugh until your eyes sparkle with joy.</p></article>
+   <article class="glass reason reveal"><div class="emoji">🌙</div><h3>Your Honesty</h3><p>I treasure the moments when we can be ourselves, without pretending or wearing masks.</p></article>
+   <article class="glass reason reveal"><div class="emoji">💜</div><h3>Your Place in My Life</h3><p>You are not just a passing character in my story. You are someone I want to remember always.</p></article>
+  </div>
+ </div>
+</section>
+<div class="quote-zone" id="words">
+ <div class="quote-box reveal">
+  <div class="quote-mark">“</div>
+  <div class="quote-text" id="quoteText" aria-live="polite">MISTY, your presence is one of those beautiful things I never want to take for granted.</div>
+  <div class="quote-count" id="quoteCount">Words from the heart · 1 / 20</div>
+  <button class="btn primary" id="nextQuote">Give Me Another Sweet Message ♡</button>
+ </div>
+</div>
+<section id="promises">
+ <div class="wrap">
+  <div class="section-head reveal"><div class="kicker">A FEW GENTLE REMINDERS</div><h2>Things I Hope You Always Remember 💗</h2><p>Read these on a beautiful day—or on a day when you need a little extra kindness.</p></div>
+  <div class="promise-grid">
+   <div class="glass promise reveal"><span>♡</span><div>You deserve love and respect—not because you have to earn them, but simply because you are you.</div></div>
+   <div class="glass promise reveal"><span>✧</span><div>It is okay to rest. You do not have to carry everything on your own, all the time.</div></div>
+   <div class="glass promise reveal"><span>🌷</span><div>Never make yourself smaller to please someone else, and do not forget your dreams while caring for others.</div></div>
+   <div class="glass promise reveal"><span>☁️</span><div>Hard days do not mean you will have a hard life forever. Give yourself room for a fresh start.</div></div>
+   <div class="glass promise reveal"><span>🫶</span><div>Your feelings matter, your voice matters, and your boundaries matter. Never feel ashamed to say what you need.</div></div>
+   <div class="glass promise reveal"><span>💫</span><div>I hope life is kind to you and that you find countless little reasons to smile along the way.</div></div>
+  </div>
+ </div>
+</section>
+<section>
+ <div class="wrap glass final-card reveal">
+  <span class="final-heart">💖</span>
+  <h2>Always and Forever, MISTY</h2>
+  <p>I may not always find the perfect words, but I hope you can feel what is in my heart: you are precious, your friendship means so much to me, and your happiness matters. May the days ahead bring you all the beautiful things your gentle heart deserves.</p>
+  <button class="btn primary" id="heartBtn">Tap Here If This Made You Smile ♡</button>
+ </div>
+</section>
+</main>
+<footer>Made with so much love for <span class="made">MISTY</span> ♡<br>Some people make the world more beautiful… and you are one of them.</footer>
+<div class="toast" id="toast" role="status">ابتسامتكِ أجمل مفاجأة 💗</div>
+<script>
+const quotes=[
+`MISTY, your presence is one of those beautiful things I never want to take for granted.`,
+`If I could give you one gift, it would be the ability to see yourself through my eyes: kind, special, and worthy of every good thing.`,
+`You have a way of turning ordinary memories into little moments that make me smile all over again.`,
+`I hope happiness knocks on your door often, and sadness never stays longer than it needs to.`,
+`You do not have to be perfect to be precious. You are enough, exactly as you are.`,
+`Please give your own heart the same gentleness you so often give to everyone else.`,
+`If comfort had another name, it might be a moment of honest laughter with you.`,
+`I hope you live a life where you never have to dim your light to make others comfortable.`,
+`Whenever I remember that I know you, I feel grateful that life brought our paths together.`,
+`I hope the days ahead bring you beautiful news that makes up for every anxious wait.`,
+`You are not a burden when you are sad, less beautiful when you are tired, or alone when you need to talk.`,
+`MISTY, be gentle with yourself. You deserve the same care you give to the people you love.`,
+`I adore the little details that make you who you are—things no one else could ever replace.`,
+`I hope your life has room for big dreams, peaceful rest, and laughter that comes straight from the heart.`,
+`Even when you cannot see your progress, remember that continuing to try is something worth celebrating.`,
+`If I could, I would collect every tiny happy moment and tuck them into your pocket for the days you need them.`,
+`Your friendship is not something I take for granted. It is something I treasure and want to care for with honesty.`,
+`Never let one difficult day convince you that your whole life is difficult. Beautiful moments are still waiting for you.`,
+`I hope you feel proud of yourself, even for the small steps no one else notices.`,
+`You are a lovely chapter in my heart, and I hope life writes you many more pages filled with peace and love.`
+];
+let current=0;
+const quoteText=document.getElementById('quoteText'),quoteCount=document.getElementById('quoteCount');
+document.getElementById('nextQuote').addEventListener('click',()=>{
+ current=(current+1)%quotes.length;quoteText.style.opacity=0;
+ setTimeout(()=>{quoteText.textContent=quotes[current];quoteCount.textContent=`Words from the heart · ${current+1} / ${quotes.length}`;quoteText.style.opacity=1},180);
+ burst(12);
+});
+const toast=document.getElementById('toast');let toastTimer;
+function showToast(message){toast.textContent=message;toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2600)}
+document.getElementById('surpriseBtn').addEventListener('click',()=>{document.getElementById('words').scrollIntoView({behavior:'smooth'});current=Math.floor(Math.random()*quotes.length);quoteText.textContent=quotes[current];quoteCount.textContent=`Words from the heart · ${current+1} / ${quotes.length}`;burst(28);showToast('A little surprise for your heart, MISTY ✨')});
+document.getElementById('heartBtn').addEventListener('click',()=>{burst(45);showToast('Keep smiling, MISTY. The world is softer with you in it 💗')});
+function burst(amount){const box=document.getElementById('petals');const symbols=['♡','♥','✦','✿','💗','💜'];for(let i=0;i<amount;i++){const el=document.createElement('span');el.className='petal';el.textContent=symbols[Math.floor(Math.random()*symbols.length)];el.style.left=Math.random()*100+'vw';el.style.animationDuration=(3+Math.random()*4)+'s';el.style.setProperty('--drift',(Math.random()*180-90)+'px');el.style.fontSize=(12+Math.random()*18)+'px';box.appendChild(el);setTimeout(()=>el.remove(),7500)}}
+let petalTimer=setInterval(()=>{if(document.hidden)return;const box=document.getElementById('petals');const el=document.createElement('span');el.className='petal';el.textContent=['♡','✿','✧'][Math.floor(Math.random()*3)];el.style.left=Math.random()*100+'vw';el.style.animationDuration=(7+Math.random()*5)+'s';el.style.setProperty('--drift',(Math.random()*130-65)+'px');box.appendChild(el);setTimeout(()=>el.remove(),12500)},1000);
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>
